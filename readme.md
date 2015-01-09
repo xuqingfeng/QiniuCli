@@ -8,7 +8,7 @@ Have fun with qiniu cdn.
 [Robo](http://robo.li/started.html)
 
 [sweetCli](https://xuqingfeng.github.io/doc/sweetCli/)
->my another project :)
+>my another project ;)
 
 [qiniu-php](https://github.com/qiniu/php-sdk/tags)
 
@@ -33,6 +33,8 @@ Have fun with qiniu cdn.
 - status
 
 - refresh
+
+[demo](assets/demo.png)
 
 ###How
 

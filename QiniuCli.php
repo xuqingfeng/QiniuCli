@@ -251,9 +251,9 @@ class QiniuCli {
 
         if (!empty($response)) {
             if ('success' == $response['success']) {
-                return Cli::success($response['filename']) . str_repeat(" ", self::$minGap) . Cli::primary($response['message']);
+                return Cli::success($response['filename']) . str_repeat(" ", self::$minGap) . Cli::info($response['message']);
             } else {
-                return Cli::danger($response['filename']) . str_repeat(" ", self::$minGap) . Cli::primary($response['message']);
+                return Cli::danger($response['filename']) . str_repeat(" ", self::$minGap) . Cli::info($response['message']);
             }
         } else {
             return Cli::danger("NULL");
