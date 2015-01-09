@@ -34,7 +34,7 @@ Have fun with qiniu cdn.
 
 - refresh
 
-[demo](assets/demo.png)
+![](assets/demo.png)
 
 ###How
 
