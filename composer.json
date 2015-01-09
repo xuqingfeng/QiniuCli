@@ -1,0 +1,6 @@
+{
+    "require": {
+        "codegyre/robo": "*",
+        "sweet/cli": "0.1.*"
+    }
+}
