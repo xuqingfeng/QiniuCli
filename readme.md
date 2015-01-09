@@ -3,30 +3,6 @@
 
 Have fun with qiniu cdn.
 
-###Features
-
-- upload
-
-- remove
-
-- status
-
-- refresh
-
-###How
-
-Fill out your config file.(mv config.example.php config.php)
-
-`php vendor/bin/robo upload ($param)`
-
-`php vendor/bin/robo remove $param`
-
-`php vendor/bin/robo removeAll`
-
-`php vendor/bin/robo status ($param)`
-
-`php vendor/bin/robo refresh $param`
-
 ###Dependence
 
 [Robo](http://robo.li/started.html)
@@ -46,6 +22,36 @@ Fill out your config file.(mv config.example.php config.php)
         "sweet/cli": "0.1.*"
     }
 }
+```
+
+###Features
+
+- upload
+
+- remove
+
+- status
+
+- refresh
+
+###How
+
+Fill out your config file.
+
+```bash
+mv config.example.php config.php
+```
+
+```php
+php vendor/bin/robo upload ($param)
+
+php vendor/bin/robo remove $param
+
+php vendor/bin/robo remove:all
+
+php vendor/bin/robo status ($param)
+
+php vendor/bin/robo refresh $param
 ```
 
 ###License
