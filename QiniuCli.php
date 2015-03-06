@@ -21,7 +21,7 @@ class QiniuCli {
     private static $putExtra;
     private static $minGap;
 
-    public function __construct() {
+    private function __construct() {
 
         Qiniu_SetKeys(ACCESSKEY, SECRETKEY);
         self::$client = new Qiniu_MacHttpClient(null);
