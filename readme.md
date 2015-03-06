@@ -12,7 +12,7 @@ Have fun with qiniu cdn.
 
 [qiniu-php](https://github.com/qiniu/php-sdk/tags)
 
-###Install
+####Install Dependence
 >via composer
 
 ```javascript
