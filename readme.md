@@ -1,7 +1,5 @@
 ##QiniuCli
->speed up your development
-
-Have fun with qiniu cdn.
+>have fun with qiniu cdn
 
 ###Dependence
 
